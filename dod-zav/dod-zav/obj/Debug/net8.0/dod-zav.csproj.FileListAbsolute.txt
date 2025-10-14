@@ -1,0 +1,14 @@
+D:\xio\lab4\dod-zav\dod-zav\bin\Debug\net8.0\dod-zav.exe
+D:\xio\lab4\dod-zav\dod-zav\bin\Debug\net8.0\dod-zav.deps.json
+D:\xio\lab4\dod-zav\dod-zav\bin\Debug\net8.0\dod-zav.runtimeconfig.json
+D:\xio\lab4\dod-zav\dod-zav\bin\Debug\net8.0\dod-zav.dll
+D:\xio\lab4\dod-zav\dod-zav\bin\Debug\net8.0\dod-zav.pdb
+D:\xio\lab4\dod-zav\dod-zav\obj\Debug\net8.0\dod-zav.GeneratedMSBuildEditorConfig.editorconfig
+D:\xio\lab4\dod-zav\dod-zav\obj\Debug\net8.0\dod-zav.AssemblyInfoInputs.cache
+D:\xio\lab4\dod-zav\dod-zav\obj\Debug\net8.0\dod-zav.AssemblyInfo.cs
+D:\xio\lab4\dod-zav\dod-zav\obj\Debug\net8.0\dod-zav.csproj.CoreCompileInputs.cache
+D:\xio\lab4\dod-zav\dod-zav\obj\Debug\net8.0\dod-zav.dll
+D:\xio\lab4\dod-zav\dod-zav\obj\Debug\net8.0\refint\dod-zav.dll
+D:\xio\lab4\dod-zav\dod-zav\obj\Debug\net8.0\dod-zav.pdb
+D:\xio\lab4\dod-zav\dod-zav\obj\Debug\net8.0\dod-zav.genruntimeconfig.cache
+D:\xio\lab4\dod-zav\dod-zav\obj\Debug\net8.0\ref\dod-zav.dll
