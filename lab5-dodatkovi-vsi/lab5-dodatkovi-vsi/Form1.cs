@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,32 +20,28 @@ namespace lab5_dodatkovi_vsi
             InitializeComponent();
         }
 
-        // ЗАВДАННЯ 3: Додано третє рівняння 6x³ - 9x = 0
-        // Функція f - ліві частини рівнянь
+        
         double f(double x, ref int k1)
         {
             switch (k1)
             {
-                case 0: return x * x - 4;  // x² - 4 = 0
-                case 1: return 3 * x - 4 * Math.Log(x) - 5;  // 3x - 4ln(x) - 5 = 0
+                case 0: return x * x - 4;  
+                case 1: return 3 * x - 4 * Math.Log(x) - 5; 
                 case 2: return Math.Cos(x) - x;
             }
             return 0;
         }
 
-        // Перша похідна
         double fp(double x, double d, ref int k1)
         {
             return (f(x + d, ref k1) - f(x, ref k1)) / d;
         }
 
-        // Друга похідна
         double f2p(double x, double d, ref int k1)
         {
             return (f(x + d, ref k1) + f(x - d, ref k1) - 2 * f(x, ref k1)) / (d * d);
         }
 
-        // ЗАВДАННЯ 1: Метод ділення навпіл як void функція
         void MDP(double a, double b, double Eps, ref int k1, ref int L, ref double result)
         {
             double c = 0, Fc;
@@ -66,7 +61,6 @@ namespace lab5_dodatkovi_vsi
             result = c;
         }
 
-        // ЗАВДАННЯ 1: Метод Ньютона як void функція
         void MN(double a, double b, double Eps, ref int k1, int Kmax, ref int L, ref double result)
         {
             double x, Dx, D;
@@ -98,23 +92,17 @@ namespace lab5_dodatkovi_vsi
             result = -1000.0;
         }
 
-        // Обробник завантаження форми
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Приховуємо поле Kmax при запуску
             label7.Visible = false;
             textBox4.Visible = false;
 
-            // ЗАВДАННЯ 2: Ініціалізація RadioButton
-            // За замовчуванням обираємо метод ділення навпіл
             if (radioButton1 != null)
                 radioButton1.Checked = true;
         }
 
-        // ЗАВДАННЯ 2: Обробники для RadioButton (вибір методу)
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            // Метод ділення навпіл
             if (radioButton1.Checked)
             {
                 label7.Visible = false;
@@ -126,7 +114,6 @@ namespace lab5_dodatkovi_vsi
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            // Метод Ньютона
             if (radioButton2.Checked)
             {
                 label7.Visible = true;
@@ -136,20 +123,18 @@ namespace lab5_dodatkovi_vsi
             }
         }
 
-        // Обробник кнопки "Розв'язати"
         private void button1_Click(object sender, EventArgs e)
         {
             int L, k = -1, Kmax, m = -1;
             double D, Eps = 0, a, b;
-            double result = 0; // ЗАВДАННЯ 1: Змінна для збереження результату
+            double result = 0; 
             L = 0;
 
-            // ЗАВДАННЯ 2: Визначаємо метод через RadioButton
             if (radioButton1.Checked)
-                m = 0; // Метод ділення навпіл
+                m = 0; 
             else if (radioButton2.Checked)
             {
-                m = 1; // Метод Ньютона
+                m = 1; 
                 label7.Visible = true;
                 textBox4.Visible = true;
                 textBox4.Enabled = true;
@@ -164,12 +149,11 @@ namespace lab5_dodatkovi_vsi
             textBox1.Enabled = true;
             textBox2.Enabled = true;
 
-            // ЗАВДАННЯ 3: Додано третє рівняння
             switch (comboBox2.SelectedIndex)
             {
                 case 0: k = 0; break;
                 case 1: k = 1; break;
-                case 2: k = 2; break; // НОВЕ рівняння 6x³ - 9x = 0
+                case 2: k = 2; break; 
             }
 
             if (k == -1)
@@ -179,7 +163,6 @@ namespace lab5_dodatkovi_vsi
                 return;
             }
 
-            // Перевірка введення a
             if (textBox1.Text == "")
             {
                 MessageBox.Show("Введіть число в textBox1");
@@ -190,7 +173,6 @@ namespace lab5_dodatkovi_vsi
             a = Convert.ToDouble(textBox1.Text);
             textBox2.Enabled = true;
 
-            // Перевірка введення b
             if (textBox2.Text == "")
             {
                 MessageBox.Show("Введіть число в textBox2");
@@ -200,7 +182,6 @@ namespace lab5_dodatkovi_vsi
 
             b = Convert.ToDouble(textBox2.Text);
 
-            // Міняємо місцями a і b, якщо потрібно
             if (a > b)
             {
                 D = a;
@@ -210,7 +191,6 @@ namespace lab5_dodatkovi_vsi
                 textBox2.Text = Convert.ToString(b);
             }
 
-            // Перевірка введення Eps
             if (textBox3.Text == "")
             {
                 MessageBox.Show("Введіть число в textBox3");
@@ -226,7 +206,6 @@ namespace lab5_dodatkovi_vsi
                 textBox3.Text = Convert.ToString(Eps);
             }
 
-            // Перевірка для методу ділення навпіл
             if (m == 0)
             {
                 if ((f(a, ref k)) * (f(b, ref k)) > 0)
@@ -239,33 +218,32 @@ namespace lab5_dodatkovi_vsi
                 }
             }
 
-            // Перевірка меж інтервалу
+            
             if (Math.Abs(f(a, ref k)) < Eps)
             {
-                textBox6.Text = Convert.ToString(a);  // textBox6 - корінь
-                textBox5.Text = Convert.ToString(L);  // textBox5 - кількість
+                textBox6.Text = Convert.ToString(a);  
+                textBox5.Text = Convert.ToString(L);  
                 return;
             }
 
             if (Math.Abs(f(b, ref k)) < Eps)
             {
-                textBox6.Text = Convert.ToString(b);  // textBox6 - корінь
-                textBox5.Text = Convert.ToString(L);  // textBox5 - кількість
+                textBox6.Text = Convert.ToString(b);  
+                textBox5.Text = Convert.ToString(L);  
                 return;
             }
 
-            // ЗАВДАННЯ 1: Виклик методів як void функцій
             switch (m)
             {
-                case 0: // Метод ділення навпіл
+                case 0: 
                     {
                         MDP(a, b, Eps, ref k, ref L, ref result);
-                        textBox6.Text = Convert.ToString(result);  // textBox6 - корінь
-                        textBox5.Text = Convert.ToString(L);        // textBox5 - кількість
+                        textBox6.Text = Convert.ToString(result);  
+                        textBox5.Text = Convert.ToString(L);        
                         label10.Text = "К-ть поділів =";
                     }
                     break;
-                case 1: // Метод Ньютона
+                case 1:
                     {
                         if (textBox4.Text == "")
                         {
@@ -275,15 +253,14 @@ namespace lab5_dodatkovi_vsi
                         }
                         Kmax = Convert.ToInt32(textBox4.Text);
                         MN(a, b, Eps, ref k, Kmax, ref L, ref result);
-                        textBox6.Text = Convert.ToString(result);  // textBox6 - корінь
-                        textBox5.Text = Convert.ToString(L);        // textBox5 - кількість
+                        textBox6.Text = Convert.ToString(result);  
+                        textBox5.Text = Convert.ToString(L);       
                         label10.Text = "К-ть ітерац.=";
                     }
                     break;
             }
         }
 
-        // Обробник кнопки "Очистити"
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
@@ -293,7 +270,6 @@ namespace lab5_dodatkovi_vsi
             textBox5.Clear();
             textBox6.Clear();
 
-            // Перевіряємо, який метод обрано
             if (radioButton1.Checked)
             {
                 label7.Visible = false;
@@ -306,7 +282,6 @@ namespace lab5_dodatkovi_vsi
             }
         }
 
-        // Обробник кнопки "Закрити"
         private void button3_Click(object sender, EventArgs e)
         {
             Close();
@@ -318,7 +293,7 @@ namespace lab5_dodatkovi_vsi
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            // Порожній обробник
         }
     }
 }
+
