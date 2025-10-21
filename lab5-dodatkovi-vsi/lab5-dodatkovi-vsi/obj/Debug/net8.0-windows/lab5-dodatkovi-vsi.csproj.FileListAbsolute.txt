@@ -1,0 +1,16 @@
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\bin\Debug\net8.0-windows\lab5-dodatkovi-vsi.exe
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\bin\Debug\net8.0-windows\lab5-dodatkovi-vsi.deps.json
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\bin\Debug\net8.0-windows\lab5-dodatkovi-vsi.runtimeconfig.json
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\bin\Debug\net8.0-windows\lab5-dodatkovi-vsi.dll
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\bin\Debug\net8.0-windows\lab5-dodatkovi-vsi.pdb
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\obj\Debug\net8.0-windows\lab5_dodatkovi_vsi.Form1.resources
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\obj\Debug\net8.0-windows\lab5-dodatkovi-vsi.csproj.GenerateResource.cache
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\obj\Debug\net8.0-windows\lab5-dodatkovi-vsi.GeneratedMSBuildEditorConfig.editorconfig
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\obj\Debug\net8.0-windows\lab5-dodatkovi-vsi.AssemblyInfoInputs.cache
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\obj\Debug\net8.0-windows\lab5-dodatkovi-vsi.AssemblyInfo.cs
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\obj\Debug\net8.0-windows\lab5-dodatkovi-vsi.csproj.CoreCompileInputs.cache
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\obj\Debug\net8.0-windows\lab5-dodatkovi-vsi.dll
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\obj\Debug\net8.0-windows\refint\lab5-dodatkovi-vsi.dll
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\obj\Debug\net8.0-windows\lab5-dodatkovi-vsi.pdb
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\obj\Debug\net8.0-windows\lab5-dodatkovi-vsi.genruntimeconfig.cache
+D:\5_sem\xio\lab5-dodatkovi-vsi\lab5-dodatkovi-vsi\obj\Debug\net8.0-windows\ref\lab5-dodatkovi-vsi.dll
