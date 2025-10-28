@@ -1,0 +1,16 @@
+D:\5_sem\xio\dod6\dod6\bin\Debug\net8.0-windows\dod6.exe
+D:\5_sem\xio\dod6\dod6\bin\Debug\net8.0-windows\dod6.deps.json
+D:\5_sem\xio\dod6\dod6\bin\Debug\net8.0-windows\dod6.runtimeconfig.json
+D:\5_sem\xio\dod6\dod6\bin\Debug\net8.0-windows\dod6.dll
+D:\5_sem\xio\dod6\dod6\bin\Debug\net8.0-windows\dod6.pdb
+D:\5_sem\xio\dod6\dod6\obj\Debug\net8.0-windows\dod6.Form1.resources
+D:\5_sem\xio\dod6\dod6\obj\Debug\net8.0-windows\dod6.csproj.GenerateResource.cache
+D:\5_sem\xio\dod6\dod6\obj\Debug\net8.0-windows\dod6.GeneratedMSBuildEditorConfig.editorconfig
+D:\5_sem\xio\dod6\dod6\obj\Debug\net8.0-windows\dod6.AssemblyInfoInputs.cache
+D:\5_sem\xio\dod6\dod6\obj\Debug\net8.0-windows\dod6.AssemblyInfo.cs
+D:\5_sem\xio\dod6\dod6\obj\Debug\net8.0-windows\dod6.csproj.CoreCompileInputs.cache
+D:\5_sem\xio\dod6\dod6\obj\Debug\net8.0-windows\dod6.dll
+D:\5_sem\xio\dod6\dod6\obj\Debug\net8.0-windows\refint\dod6.dll
+D:\5_sem\xio\dod6\dod6\obj\Debug\net8.0-windows\dod6.pdb
+D:\5_sem\xio\dod6\dod6\obj\Debug\net8.0-windows\dod6.genruntimeconfig.cache
+D:\5_sem\xio\dod6\dod6\obj\Debug\net8.0-windows\ref\dod6.dll
