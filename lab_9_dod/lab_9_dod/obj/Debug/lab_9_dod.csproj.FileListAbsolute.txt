@@ -1,0 +1,10 @@
+D:\5_sem\xio\lab_9_dod\lab_9_dod\obj\Debug\lab_9_dod.csproj.AssemblyReference.cache
+D:\5_sem\xio\lab_9_dod\lab_9_dod\obj\Debug\lab_9_dod.Form1.resources
+D:\5_sem\xio\lab_9_dod\lab_9_dod\obj\Debug\lab_9_dod.Properties.Resources.resources
+D:\5_sem\xio\lab_9_dod\lab_9_dod\obj\Debug\lab_9_dod.csproj.GenerateResource.cache
+D:\5_sem\xio\lab_9_dod\lab_9_dod\obj\Debug\lab_9_dod.csproj.CoreCompileInputs.cache
+D:\5_sem\xio\lab_9_dod\lab_9_dod\bin\Debug\lab_9_dod.exe.config
+D:\5_sem\xio\lab_9_dod\lab_9_dod\bin\Debug\lab_9_dod.exe
+D:\5_sem\xio\lab_9_dod\lab_9_dod\bin\Debug\lab_9_dod.pdb
+D:\5_sem\xio\lab_9_dod\lab_9_dod\obj\Debug\lab_9_dod.exe
+D:\5_sem\xio\lab_9_dod\lab_9_dod\obj\Debug\lab_9_dod.pdb
