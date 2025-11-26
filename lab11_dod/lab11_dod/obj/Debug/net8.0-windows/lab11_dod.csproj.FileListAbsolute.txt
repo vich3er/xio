@@ -1,0 +1,16 @@
+D:\5_sem\xio\lab11_dod\lab11_dod\bin\Debug\net8.0-windows\lab11_dod.exe
+D:\5_sem\xio\lab11_dod\lab11_dod\bin\Debug\net8.0-windows\lab11_dod.deps.json
+D:\5_sem\xio\lab11_dod\lab11_dod\bin\Debug\net8.0-windows\lab11_dod.runtimeconfig.json
+D:\5_sem\xio\lab11_dod\lab11_dod\bin\Debug\net8.0-windows\lab11_dod.dll
+D:\5_sem\xio\lab11_dod\lab11_dod\bin\Debug\net8.0-windows\lab11_dod.pdb
+D:\5_sem\xio\lab11_dod\lab11_dod\obj\Debug\net8.0-windows\lab11_dod.Form1.resources
+D:\5_sem\xio\lab11_dod\lab11_dod\obj\Debug\net8.0-windows\lab11_dod.csproj.GenerateResource.cache
+D:\5_sem\xio\lab11_dod\lab11_dod\obj\Debug\net8.0-windows\lab11_dod.GeneratedMSBuildEditorConfig.editorconfig
+D:\5_sem\xio\lab11_dod\lab11_dod\obj\Debug\net8.0-windows\lab11_dod.AssemblyInfoInputs.cache
+D:\5_sem\xio\lab11_dod\lab11_dod\obj\Debug\net8.0-windows\lab11_dod.AssemblyInfo.cs
+D:\5_sem\xio\lab11_dod\lab11_dod\obj\Debug\net8.0-windows\lab11_dod.csproj.CoreCompileInputs.cache
+D:\5_sem\xio\lab11_dod\lab11_dod\obj\Debug\net8.0-windows\lab11_dod.dll
+D:\5_sem\xio\lab11_dod\lab11_dod\obj\Debug\net8.0-windows\refint\lab11_dod.dll
+D:\5_sem\xio\lab11_dod\lab11_dod\obj\Debug\net8.0-windows\lab11_dod.pdb
+D:\5_sem\xio\lab11_dod\lab11_dod\obj\Debug\net8.0-windows\lab11_dod.genruntimeconfig.cache
+D:\5_sem\xio\lab11_dod\lab11_dod\obj\Debug\net8.0-windows\ref\lab11_dod.dll
