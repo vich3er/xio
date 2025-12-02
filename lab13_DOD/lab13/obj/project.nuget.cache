@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qb6I9ck9iwg=",
+  "success": true,
+  "projectFilePath": "D:\\5_sem\\xio\\lab13_DOD\\lab13\\lab13.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chere\\.nuget\\packages\\datatableprettyprinter\\0.2.0\\datatableprettyprinter.0.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

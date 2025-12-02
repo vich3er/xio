@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DataTablePrettyPrinter/0.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/DataTablePrettyPrinter.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataTablePrettyPrinter/0.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qX1qGvdOu132Ae7gQGyFdri74M/ib1gtCn8bzrpM3Q3+aXFHM/ufWWnk534HdUVEw6+2HY2b7vn8pOqKd9CmpA==",
+      "path": "datatableprettyprinter/0.2.0",
+      "hashPath": "datatableprettyprinter.0.2.0.nupkg.sha512"
+    }
+  }
+}
