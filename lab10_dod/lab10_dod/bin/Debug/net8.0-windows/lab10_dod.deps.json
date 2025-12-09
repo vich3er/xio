@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "lab10_dod/1.0.0": {
+        "runtime": {
+          "lab10_dod.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lab10_dod/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
